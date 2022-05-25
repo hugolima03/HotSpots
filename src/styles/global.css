@@ -1,0 +1,44 @@
+:root {
+  --spacings-xxsmall: 0.8rem;
+  --spacings-xsmall: 1.6rem;
+  --spacings-small: 2.4rem;
+  --spacings-medium: 3.2rem;
+  --spacings-large: 4rem;
+  --spacings-xlarge: 4.8rem;
+  --spacings-xxlarge: 5.6rem;
+  --font-size-xsmall: 1.2rem;
+  --font-size-small: 1.4rem;
+  --font-size-medium: 1.6rem;
+  --font-size-large: 1.8rem;
+  --font-size-xlarge: 2rem;
+  --font-size-xxlarge: 2.8rem;
+  --font-size-huge: 5.8rem;
+  --blue: #4056f4;
+  --green: #06d6a0;
+  --yellow: #ffd166;
+  --black: #1e252b;
+  --white: #f2f8f1;
+  --blue: #ef476f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Ubuntu", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+main {
+  height: minmax(fit-content, 100vh);
+  background: linear-gradient(
+    0.34deg,
+    rgba(6, 214, 160, 0.95) -75.73%,
+    rgba(64, 86, 244, 0.95) 53.14%
+  );
+}

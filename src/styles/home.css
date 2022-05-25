@@ -1,0 +1,41 @@
+#id {
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacings-xlarge);
+
+  padding: var(--spacings-xlarge) 0;
+}
+
+html {
+  background-image: url("../../public/img/state.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 90%;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--green);
+  padding: var(--spacings-xsmall) 0;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.title {
+  max-width: 30.8rem;
+  font-size: 3.2rem;
+  text-align: center;
+  color: white;
+}
+
+strong {
+  color: var(--yellow);
+  text-decoration: underline;
+}
